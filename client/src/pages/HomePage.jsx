@@ -28,7 +28,7 @@ export const HomePage = () => {
     <Layout>
       <div className="">
         {data.map((item) => (
-          <div key={item._id} className="container">
+          <div key={item._id} className="container-one">
             <div className="images">
               <img src="/Images/feed.jpg" alt="feed" />
             </div>

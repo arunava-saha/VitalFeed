@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-html {
-  display: grid;
-  min-height: 100%;
-}
 
 body {
   display: grid;
@@ -11,7 +7,7 @@ body {
   text-transform: uppercase;
 }
 
-.container {
+.container-one {
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -37,11 +33,6 @@ h1 {
 h2 {
   color: #4ff4f4;
   margin-top: -5px;
-}
-
-img {
-  width: 290px;
-  margin-top: 47px;
 }
 
 .slideshow-buttons {
@@ -92,7 +83,7 @@ img {
   text-align: justify;
 }
 
-button {
+.buttons button {
   background: rgba(#aaa, 10%);
   padding: 10px;
   display: inline-block;
@@ -127,4 +118,8 @@ button {
 .focus {
   background: #721233;
   color: #fff;
+}
+.images img {
+  margin-top: 40px;
+  width: 290px;
 }

@@ -4,16 +4,6 @@ import moment from "moment";
 import "./Profile.css";
 
 export const Profile = ({ user }) => {
-  const colors = [
-    "#884A39",
-    "#C38154",
-    "#FFC26F",
-    "#4F709C",
-    "#4942E4",
-    "#0079FF",
-    "#FF0060",
-    "#22A699",
-  ];
   return (
     <>
       <Header />
@@ -37,23 +27,6 @@ export const Profile = ({ user }) => {
                 <div className="px-4 mt-1">
                   <p className="fonts"> </p>
                 </div>
-                {/* <ul className="social-list">
-                  <li>
-                    <i className="fa fa-facebook" />
-                  </li>
-                  <li>
-                    <i className="fa fa-dribbble" />
-                  </li>
-                  <li>
-                    <i className="fa fa-instagram" />
-                  </li>
-                  <li>
-                    <i className="fa fa-linkedin" />
-                  </li>
-                  <li>
-                    <i className="fa fa-google" />
-                  </li>
-                </ul> */}
                 <div className="buttons">
                   <button className="btn btn-outline-primary px-4">
                     {user?.phone && user.phone === "na"
